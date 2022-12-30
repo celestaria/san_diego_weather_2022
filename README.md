@@ -5,7 +5,7 @@ In san_diego_lows_averages_highs.py, I plotted a line chart showing daily minimu
 
 In san_diego_lows.py, san_diego_averages.py, and san_diego_highs.py, I plotted a line chart showing daily minimum, average, and maximum temperature respectively and a trendline.
 
-In san_diego_precipitation.py, I plotted the daily precipitation. I did not plot a trend line, because a majority of the points were at 0.
+In san_diego_precipitation.py, I plotted the daily precipitation.
 
 In san_diego_pressure.py, I plotted the daily pressure and a trendline.
 
