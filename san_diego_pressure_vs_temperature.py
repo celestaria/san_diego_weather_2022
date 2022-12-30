@@ -36,5 +36,6 @@ plt.scatter(x, y)
 plt.plot(x, p(x))
 plt.show()
 
+# Print corellation coefficient and p-value
 print(np.corrcoef(x, y)[0,1])
 print(pearsonr(x, y))
