@@ -1,7 +1,6 @@
 # Import libraries and dependencies
 from datetime import datetime
 import matplotlib.pyplot as plt
-import pandas as pd
 from meteostat import Point, Daily
 
 # Set time period
