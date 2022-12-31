@@ -25,7 +25,8 @@ z = np.polyfit(x, y, 1)
 p = np.poly1d(z)
 
 # Add trendline to plot for average temperature
-plt.style.use('ggplot')
+plt.style.use('seaborn')
+plt.rcParams["figure.figsize"] = (10, 7.5)
 title = "Daily average temperatures - 2022 San Diego, CA"
 fig, ax = plt.subplots()
 ax.set_title(title, fontsize=20)

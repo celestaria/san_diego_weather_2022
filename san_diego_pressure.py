@@ -25,7 +25,8 @@ z = np.polyfit(x, y, 1)
 p = np.poly1d(z)
 
 # Plot average precipitation
-plt.style.use('ggplot   ')
+plt.style.use('seaborn')
+plt.rcParams["figure.figsize"] = (10, 7.5)
 title = "Daily Pressure - 2022 San Diego, CA"
 fig, ax = plt.subplots()
 ax.set_title(title, fontsize=20)

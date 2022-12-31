@@ -26,6 +26,7 @@ p = np.poly1d(z)
 
 # Add trendline to plot for minimum temperature
 plt.style.use('seaborn')
+plt.rcParams["figure.figsize"] = (10, 7.5)
 title = "Daily low temperatures - 2022 San Diego, CA"
 fig, ax = plt.subplots()
 ax.set_title(title, fontsize=20)

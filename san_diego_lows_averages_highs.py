@@ -21,6 +21,7 @@ ax = data.plot(
     colormap='jet',
     marker='.',
     markersize=10,
+    figsize=(10, 7.5)
     )
 ax.set_title("Daily average, low, and high temperatures - 2022 San Diego, CA", fontsize=20)
 ax.set_xlabel("Dates", fontsize =16)
