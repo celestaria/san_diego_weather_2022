@@ -37,6 +37,6 @@ Graphs using Meteostat's data on San Diego for the year 2022. I was investigatin
 
 ![Daily Pressure](images/daily_pressure.png)
 
-### Daily Pressure Versus Daily Average Temperature
+### Daily Average Temperature Versus Daily Pressure 
 
-![Daily Pressure Versus Daily Average Temperature](images/daily_pressure_vs_avg_temp.png)
+![Daily Average Temperature Versus Daily Pressure ](images/daily_avg_temp_vs_pressure.png)
