@@ -18,8 +18,8 @@ data = Daily(san_diego, start, end)
 data = data.fetch()
 
 # Create x and y values for pressure
-x = data.pres
-y = data.tavg
+x = data.tavg
+y = data.pres
 
 # Calculate equation for trendline for pressure
 z = np.polyfit(x, y, 1)
@@ -28,11 +28,11 @@ p = np.poly1d(z)
 # Plot average precipitation
 plt.style.use('seaborn')
 plt.rcParams["figure.figsize"] = (10, 7.5)
-title = "Daily pressure vs average temperature- 2022 San Diego, CA"
+title = "Daily average temperature vs pressure - 2022 San Diego, CA"
 fig, ax = plt.subplots()
 ax.set_title(title, fontsize=20)
-ax.set_xlabel('Pressure (hPa)', fontsize=16)
-ax.set_ylabel("Temperature (C)", fontsize=16)
+ax.set_xlabel("Temperature (C)", fontsize=16)
+ax.set_ylabel("Pressure (hPa)", fontsize=16)
 plt.scatter(x, y)
 plt.plot(x, p(x))
 plt.show()
