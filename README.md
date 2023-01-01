@@ -1,7 +1,7 @@
 # San Diego Weather 2022
 
 ## Overview
-Graphs using Meteostat's data on San Diego for the year 2022. I was investigating if there was an increasing trend in temperature in my hometown of San Diego in 2022. I also was curious to see if there was a correlation between pressure and temperature in 2022.
+Graphs using Meteostat's data on San Diego for the year 2022. I was investigating if there was an increasing trend in temperature in my hometown of San Diego. I counted how many times it rained. I also was curious to see if there was a correlation between pressure and temperature.
 
 ## Graphs
 
