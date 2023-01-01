@@ -8,7 +8,7 @@ from meteostat import Point, Daily
 
 # Set time period
 start = datetime(2022, 1, 1)
-end = datetime(2022, 12, 29)
+end = datetime(2022, 12, 31)
 
 # Create point for San Diego, CA
 san_diego = Point(32.7157, 117.1611, 62)
@@ -28,7 +28,7 @@ p = np.poly1d(z)
 # Plot average precipitation
 plt.style.use('seaborn')
 plt.rcParams["figure.figsize"] = (10, 7.5)
-title = "Daily Pressure vs Average Temperature- 2022 San Diego, CA"
+title = "Daily pressure vs average temperature- 2022 San Diego, CA"
 fig, ax = plt.subplots()
 ax.set_title(title, fontsize=20)
 ax.set_xlabel('Pressure (hPa)', fontsize=16)
