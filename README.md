@@ -13,13 +13,17 @@ Graphs using Meteostat's data on San Diego for the year 2022. I was investigatin
 | `san_diego_pressure.py` | I plotted the daily pressure |
 | `san_diego_pressure_vs_temperature.py` | I plotted the pressure on the x axis versus the temperature on the y axis <br />I plotted the regression line and calculated the correlation coefficent and p-value |
 
-### Daily Average Temperature
+### Daily Minimum, Average, and Maximum Temperature
 
-![Daily Average Temperature](images/daily_avg_temp.png)
+![Daily Minimum, Average, and Maximum Temperature](images/daily_avg_low_high_temp.png)
 
 ### Daily Minimum Temperature
 
 ![Daily Minimum Temperature](images/daily_low_temp.png)
+
+### Daily Average Temperature
+
+![Daily Average Temperature](images/daily_avg_temp.png)
 
 ### Daily Maximum Temperature
 
