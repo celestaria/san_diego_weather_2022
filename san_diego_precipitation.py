@@ -35,4 +35,11 @@ ax.set_xlabel('Dates', fontsize=16)
 fig.autofmt_xdate()
 ax.set_ylabel("Precipitation (mm)", fontsize=16)
 plt.scatter(data.prcp.index, y)
+
+count = 0
+for x in data.prcp.values:
+    if x > 0:
+        count += 1
+print("The number of times it rained in 2022 is:", count)
+
 plt.show()
