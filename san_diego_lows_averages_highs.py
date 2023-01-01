@@ -5,7 +5,7 @@ from meteostat import Point, Daily
 
 # Set time period
 start = datetime(2022, 1, 1)
-end = datetime(2022, 12, 29)
+end = datetime(2022, 12, 31)
 
 # Create point for San Diego, CA
 san_diego = Point(32.7157, 117.1611, 62)
